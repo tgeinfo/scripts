@@ -19,7 +19,7 @@ Vous pouvez automatiser l'installation de Docker, Docker Compose, et la configur
 Étant donné que ce script est sécurisé et utilisé dans le cadre d'un cours au cégep, vous pouvez l'exécuter directement en utilisant la commande suivante :
 
 ```bash
-sh -c "$(wget https://raw.githubusercontent.com/documentation/scripts/main/chirpstack-thingsboard/setup.sh -O -)"
+sh -c "$(wget https://raw.githubusercontent.com/tgeinfo/documentation/main/chirpstack-thingsboard/setup.sh -O -)"
 ```
 
 **Remarque :** Cette commande télécharge et exécute le script `setup.sh` en une seule étape. Assurez-vous d'avoir les droits administrateur (sudo) pour que le script puisse installer les packages nécessaires et configurer les services.
